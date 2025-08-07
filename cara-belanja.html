@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Promotion Component -->
+    <div class="border-b border-gray-200 bg-blue-500 px-4 py-1 text-white">
+      <p class="text-center font-medium">
+        PROMO 50%
+        <a href="#" class="inline-block underline">
+          HANYA BERLAKU UNTUK HARI INI SAJA!
+        </a>
+      </p>
+    </div>
+    <!-- Promotion Component end -->
+
+    <!-- Navbar Component -->
+    <header class="bg-white py-4">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="md:flex md:items-center md:gap-12">
+            <div class="block text-green-600" href="#">
+              <h2 class="text-green-500">
+                <span class="font-medium font-size-200 text-3xl"
+                  >ReyMarketing</span
+                >
+              </h2>
+              <p class="text-gray-900 text-0xl">
+                Belanja lengkap dan murah hanya di ReyMarketing!
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="rounded-md bg-green-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm"
+                href="index.html"
+              >
+                Halaman Utama
+              </a>
+
+              <div class="hidden sm:flex">
+                <a
+                  class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                  href="#"
+                >
+                  Chat kami
+                </a>
+              </div>
+            </div>
+
+            <div class="block md:hidden">
+              <button
+                class="rounded-sm bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="size-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar Component end -->
+
+    <!-- Content -->
+    <div class="space-y-4 px-18">
+      <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+        <summary
+          class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900"
+        >
+          <h2 class="text-lg font-medium">Bagaimana cara membeli produk?</h2>
+
+          <svg
+            class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
+
+        <p class="px-4 pt-4 text-gray-900">
+          Tekan produk yang ingin anda pilih maka secara otomatis akan diarahkan
+          langsung ke whatsapp admin untuk info selanjutnya mengenai produk.
+        </p>
+      </details>
+
+      <details class="group [&_summary::-webkit-details-marker]:hidden">
+        <summary
+          class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900"
+        >
+          <h2 class="text-lg font-medium">Bagaimana cara mengklaim diskon?</h2>
+
+          <svg
+            class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
+
+        <p class="px-4 pt-4 text-gray-900">
+          Diskon secara otomatis akan ditulis selama masa tertentu, jika anda
+          membeli produk pada masa sedang diskon maka anda langsung
+          mendapatkannya!
+        </p>
+      </details>
+
+      <details class="group [&_summary::-webkit-details-marker]:hidden">
+        <summary
+          class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900"
+        >
+          <h2 class="text-lg font-medium">
+            Bagaimana jika produk yang saya pesan tidak ada?
+          </h2>
+
+          <svg
+            class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
+
+        <p class="px-4 pt-4 text-gray-900">
+          Jika produk yang ingin dipesan tidak ada mungkin saja stok produk
+          tersebut sedang habis dan stoknya ada kembali paling lambat 1 minggu.
+          Jika anda ingin membeli produk yang sedang habis maka anda bisa
+          preorder terlebih dahulu.
+        </p>
+      </details>
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer Component -->
+
+    <!-- Footer Component end -->
+  </body>
+</html>
